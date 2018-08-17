@@ -1,5 +1,5 @@
 # TodoFS
-Some excercises/trials with c and libfuse.
+Reads todos from json and make them available through filesystem.
 
 Only reading title supported at this stage.
 
@@ -16,3 +16,5 @@ or
   * ```make```
 ## Usage
 ```./bin/todofs mount_point -o filename=assets/todos.json```
+
+__Written just for fun and to try c/json-c/libfuse__
